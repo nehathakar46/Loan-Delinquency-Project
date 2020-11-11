@@ -37,6 +37,7 @@ I built 5 models to evaluate performance of each of them:
 Since the data was imbalanced, accuracy was not the correct performance metric. Instead I focused on other metrics like precision, recall and ROC-AUC curve.
 # Analysis of the output of each model
 1) Logistic Regression
+Among all the models Logistic regression had the best recall values for both the class. Also
 ![image](https://user-images.githubusercontent.com/59902500/98761093-8f80b280-2389-11eb-89e0-eb1624703206.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761292-fa31ee00-2389-11eb-8a43-533278b794aa.png)
 
