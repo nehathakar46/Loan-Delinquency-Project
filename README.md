@@ -36,29 +36,31 @@ I built 5 models to evaluate performance of each of them:
   e. Gradient Boost Classifier
 Since the data was imbalanced, accuracy was not the correct performance metric. Instead I focused on other metrics like precision, recall and ROC-AUC curve.
 # Analysis of the output of each model
-1) Logistic Regression
+## 1) Logistic Regression
 
 ![image](https://user-images.githubusercontent.com/59902500/98761093-8f80b280-2389-11eb-89e0-eb1624703206.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761292-fa31ee00-2389-11eb-8a43-533278b794aa.png)
 
-2) Linear SVM
+## 2) Linear SVM
 
 ![image](https://user-images.githubusercontent.com/59902500/98761404-38c7a880-238a-11eb-816c-a40583c6d94b.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761454-4da43c00-238a-11eb-8f95-482ae7da58fe.png)
 
-3) Decision Tree
+## 3) Decision Tree
 
 ![image](https://user-images.githubusercontent.com/59902500/98761477-5bf25800-238a-11eb-8637-08dcdc86e8f1.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761518-70365500-238a-11eb-8971-00ab2bbff599.png)
 
-4) Random Forest
+## 4) Random Forest
 
 ![image](https://user-images.githubusercontent.com/59902500/98761539-847a5200-238a-11eb-95db-657321010cc2.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761562-952ac800-238a-11eb-9d26-630a02a1f11b.png)
 
-5) Gradient Boosting Classifier
+## 5) Gradient Boosting Classifier
 
 ![image](https://user-images.githubusercontent.com/59902500/98761594-a673d480-238a-11eb-909a-462b7e289b90.png)
 ![image](https://user-images.githubusercontent.com/59902500/98761625-b986a480-238a-11eb-9d5b-b83434212fd1.png)
 
+# Conclusion:
+According to the performance metrics, Random Forrest scores highest in accuracy. Also, the curve is tending towards the ideal shape. Hence, Random Forrest looks like the best fit for this data.
 
